@@ -39,7 +39,7 @@ a {
   font-size: 3em;
 }
 
-
+/*Responsive screen styling*/
 @media screen and (max-width: 768px) {
   .construction {
     font-size: 48px;
