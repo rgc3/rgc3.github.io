@@ -15,19 +15,18 @@
 .construction {
   font-family: 'Archivo Black', sans-serif;
   text-align: center;
-  color: #707070;
-  font-size: 8em;
-  opacity: 0.5;
+  color: #ffffff;
+  font-size: 3em;
 }
 .spacer {
-  height: 150px;
+  height: 450px;
 }
 .footer {
   position: fixed;
   bottom:0;
   left:0;
   right:0;
-  height:30px;
+  height:50px;
   color: #707070;
   text-align: center;
 }
