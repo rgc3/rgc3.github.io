@@ -6,15 +6,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Web dev portfolio">
     <meta name="author" content="Robert Cunningham">
-    <title>Projects</title>
+    <title>My Projects</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/projects.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="img/favicon.ico">
   </head>
   <body>
-    <div class="container">
-          <h1>Projects</h1>
-          <h3>Coming Soon</h3>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+      <div class="container topnav">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand topnav" href="index.html">Robert G. Cunningham, III</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="wm_resume.html">"Walter Mitty" Resume</a>
+            </li>
+              <li>
+                <a href="projects.html">Projects</a>
+              </li>
+              <li>
+                <a href="#" data-toggle="modal" data-target="#myModal"> Contact</a>
+              </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Header -->
+    <a name="about"></a>
+    <div class="intro-header">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="intro-message">
+              <h1>Some of my projects</h1>
+              <h3>Robert G. Cunningham, III</h3>
+              <hr class="intro-divider">
+              <h3>Coming Soon</h3>
+
+              <!-- <ul class="list-inline intro-social-buttons">
+                <li>
+                  <a href="https://twitter.com/rgc3dev" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                </li>
+                <li>
+                  <a href="https://github.com/rgc3" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/rgc3dev" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                </li>
+                <li>
+                  <a href="mailto:rgc3dev@gmail.com?Subject=Your%20portfolio" target="_top" class="btn btn-default btn-lg"><i class="fa fa-envelope-o fa-fw"></i> <span class="network-name">Email</span></a>
+                </li>
+              </ul> -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.container -->
+
     </div>
+    <!-- /.intro-header -->
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Contact Robert Cunningham</h4>
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li>
+                Email: <a href="mailto:rgc3dev@gmail.com?Subject=Your%20portfolio">rgc3dev@gmail.com</a>
+              </li>
+              <li>
+                Phone: 323.309.3106
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal -->
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
   </body>
 </html>
